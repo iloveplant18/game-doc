@@ -48,7 +48,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/iloveplant18/game-doc/',
+            'https://github.com/iloveplant18/game-doc/tree/main/',
         },
         blog: false,
         theme: {
