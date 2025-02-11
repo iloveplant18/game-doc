@@ -72,7 +72,7 @@ const config = {
             label: 'Intro',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/iloveplant18/game-doc',
             label: 'GitHub',
             position: 'right',
           },
