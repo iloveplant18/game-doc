@@ -22,8 +22,9 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'gamedevelopers-100', // Usually your GitHub org/user name.
   projectName: 'game-doc', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -42,14 +43,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/iloveplant18/game-doc/',
-          routeBasePath: '/',
-          homePageId: 'index.md'
         },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -85,7 +86,7 @@ const config = {
             items: [
               {
                 label: 'Intro',
-                to: '/docs/game',
+                to: '/',
               },
             ],
           },
