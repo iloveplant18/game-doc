@@ -14,7 +14,10 @@ sidebar_position: 2
 
 - Path of exile
 - Raid shadow legends
-- ...
+- Diablo 3 - 4
+- Darkest Dungeon
+- Bloodborn
+- Genshin
 
 накидайте еще
 
